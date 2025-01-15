@@ -20,4 +20,5 @@
   'admin\\test\\Controllers\\feedback' => 'plugins\\admin\\test\\controllers\\feedback.php',
   'Admin\\Test\\Models\\Feedback' => 'plugins\\admin\\test\\models\\Feedback.php',
   'system\\Controllers\\mailtemplates' => 'modules\\system\\controllers\\mailtemplates.php',
+  'backend\\Controllers\\accesslogs' => 'modules\\backend\\controllers\\accesslogs.php',
 );

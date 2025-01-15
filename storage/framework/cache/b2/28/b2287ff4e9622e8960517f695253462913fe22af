@@ -1,4 +1,4 @@
-1736921551a:1:{s:15:"job_details.htm";a:8:{s:8:"fileName";s:15:"job_details.htm";s:7:"content";s:10324:"url='/job/details'
+1736942910a:1:{s:15:"job_details.htm";a:8:{s:8:"fileName";s:15:"job_details.htm";s:7:"content";s:10505:"url='/job/details'
 title='job details'
 layout = 'main'
 ==
@@ -179,7 +179,7 @@ layout = 'main'
             </div>
         </div>
     </div>
-";s:5:"mtime";i:1736742526;s:6:"markup";s:10260:"<!-- bradcam_area  -->
+";s:5:"mtime";i:1736922647;s:6:"markup";s:10435:"<!-- bradcam_area  -->
     <div class="bradcam_area bradcam_bg_1">
         <div class="container">
             <div class="row">

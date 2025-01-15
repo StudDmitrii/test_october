@@ -38,6 +38,6 @@ class Contact extends ComponentBase
         $city = City::where('domain','=',$domain)->first();
         empty($city) ? $city = City::get()->first() : true;
         $contact = @ContactModel::where('city_id','=',$city->id)->first();
-        return $contact->id;
+        return ['mail'=>$contact->mail, 'id'=>$contact->id];
     }
 }

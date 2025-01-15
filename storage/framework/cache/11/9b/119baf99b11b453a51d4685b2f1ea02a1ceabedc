@@ -1,4 +1,4 @@
-1736921551a:1:{s:15:"single-blog.htm";a:8:{s:8:"fileName";s:15:"single-blog.htm";s:7:"content";s:21922:"url='/blog/:blog'
+1736942910a:1:{s:15:"single-blog.htm";a:8:{s:8:"fileName";s:15:"single-blog.htm";s:7:"content";s:21922:"url='/blog/:blog'
 title='blog instance'
 layout = 'main'
 ==
@@ -426,7 +426,7 @@ layout = 'main'
       </div>
    </section>
    <!--================ Blog Area end =================-->
-";s:5:"mtime";i:1736745988;s:6:"markup";s:21853:"<!-- bradcam_area  -->
+";s:5:"mtime";i:1736922647;s:6:"markup";s:21853:"<!-- bradcam_area  -->
   <div class="bradcam_area bradcam_bg_1">
       <div class="container">
           <div class="row">

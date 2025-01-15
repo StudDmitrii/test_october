@@ -1,4 +1,4 @@
-1736921551a:1:{s:9:"index.htm";a:8:{s:8:"fileName";s:9:"index.htm";s:7:"content";s:31114:"url='/'
+1736942910a:1:{s:9:"index.htm";a:8:{s:8:"fileName";s:9:"index.htm";s:7:"content";s:31719:"url='/'
 title='main page'
 layout = 'main'
 ==
@@ -603,7 +603,7 @@ layout = 'main'
         </div>
     </div>
     <!-- /testimonial_area  -->
-";s:5:"mtime";i:1736742514;s:6:"markup";s:31063:"<!-- slider_area_start -->
+";s:5:"mtime";i:1736922647;s:6:"markup";s:31662:"<!-- slider_area_start -->
     <div class="slider_area">
         <div class="single_slider  d-flex align-items-center slider_bg_1">
             <div class="container">

@@ -4,6 +4,7 @@ use Cms\Classes\ComponentBase;
 use Admin\Test\Models\Contact;
 use Admin\Test\Components\Contact as Cntct;
 use Admin\Test\Models\Feedback as Fb;
+use Exception;
 use Illuminate\Support\Facades\Mail;
 
 class Feedback extends ComponentBase
@@ -25,21 +26,26 @@ class Feedback extends ComponentBase
         $name = $_POST['name'];
         $email = $_POST['email'];
         $text = $_POST['text'];
-        $contact_id = Cntct::getMail() ?? '0';
+        $contactMailAndId = Cntct::getMail();
 
-        $feedback = new Fb();
-        $feedback->contact_id = (int)$contact_id;
-        $feedback->name = $name;
-        $feedback->email = $email;
-        $feedback->text = $text;
-        $feedback->save();
-
-        $this->page['feedback_result'] = 'Данные отправлены';
-
-        Mail::sendTo('stud0000240796@gmail.com', 'admin.test::mail.mail', [
-            'name'=>$name,
-            'email'=>$email,
-            'text'=>$text,
-        ]);
+        try{
+            Mail::sendTo($contactMailAndId['mail'], 'admin.test::mail.mail', [
+                'name'=>$name,
+                'email'=>$email,
+                'text'=>$text,
+            ]);
+    
+            $feedback = new Fb();
+            $feedback->contact_id = (int)$contactMailAndId['id'] ?? '0';
+            $feedback->name = $name;
+            $feedback->email = $email;
+            $feedback->text = $text;
+            $feedback->save();
+    
+            $this->page['feedback_result'] = 'Данные отправлены';
+        }
+        catch(Exception $e) {
+            $this->page['feedback_result'] = 'Не удалось отправить данные.';
+        }
     }
 }
