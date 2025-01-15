@@ -1,0 +1,32 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    id:
+        label: ID
+        searchable: true
+        sortable: true
+
+    city:
+        label: Город
+        searchable: true
+        sortable: true
+        relation: city
+        select: name
+
+    phone:
+        label: Тел
+        searchable: true
+        sortable: true
+
+    address:
+        label: Адрес
+        searchable: true
+        sortable: true
+
+    mail:
+        label: Почта
+        searchable: true
+        sortable: true
+

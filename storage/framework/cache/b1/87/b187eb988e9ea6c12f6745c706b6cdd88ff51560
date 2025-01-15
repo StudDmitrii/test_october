@@ -1,0 +1,109 @@
+1736921551a:1:{s:15:"site/header.htm";a:5:{s:8:"fileName";s:15:"site/header.htm";s:7:"content";s:2887:"<div class="header-area ">
+    <div id="sticky-header" class="main-header-area">
+        <div class="container-fluid ">
+            <div class="header_bottom_border">
+                <div class="row align-items-center">
+                    <div class="col-xl-3 col-lg-2">
+                        <div class="logo">
+                            <a href="{{'index'|page}}">
+                                <img src="{{'assets/img/logo.png'|theme}}" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-7">
+                        <div class="main-menu  d-none d-lg-block">
+                            <nav>
+                                <ul id="navigation">
+                                    <li><a href="{{'index'|page}}">home</a></li>
+                                    <li><a href="{{'jobs'|page}}">Browse Job</a></li>
+                                    <li><a href="#">pages <i class="ti-angle-down"></i></a>
+                                        <ul class="submenu">
+                                            <li><a href="{{'candidate'|page}}">Candidates </a></li>
+                                            <li><a href="{{'job_details'|page}}">job details </a></li>
+                                            <li><a href="{{'elements'|page}}">elements</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">blog <i class="ti-angle-down"></i></a>
+                                        <ul class="submenu">
+                                            <li><a href="{{'blog'|page}}">blog</a></li>
+                                            <li><a href="{{'single-blog'|page}}">single-blog</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="{{'contact'|page}}">Contact</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 d-none d-lg-block">
+                        <div class="Appointment">
+                            <div class="phone_num d-none d-xl-block">
+                                <a href="#">Log in</a>
+                            </div>
+                            <div class="d-none d-lg-block">
+                                <a class="boxed-btn3" href="#">Post a Job</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="mobile_menu d-block d-lg-none"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>";s:5:"mtime";i:1736744139;s:6:"markup";s:2887:"<div class="header-area ">
+    <div id="sticky-header" class="main-header-area">
+        <div class="container-fluid ">
+            <div class="header_bottom_border">
+                <div class="row align-items-center">
+                    <div class="col-xl-3 col-lg-2">
+                        <div class="logo">
+                            <a href="{{'index'|page}}">
+                                <img src="{{'assets/img/logo.png'|theme}}" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-7">
+                        <div class="main-menu  d-none d-lg-block">
+                            <nav>
+                                <ul id="navigation">
+                                    <li><a href="{{'index'|page}}">home</a></li>
+                                    <li><a href="{{'jobs'|page}}">Browse Job</a></li>
+                                    <li><a href="#">pages <i class="ti-angle-down"></i></a>
+                                        <ul class="submenu">
+                                            <li><a href="{{'candidate'|page}}">Candidates </a></li>
+                                            <li><a href="{{'job_details'|page}}">job details </a></li>
+                                            <li><a href="{{'elements'|page}}">elements</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">blog <i class="ti-angle-down"></i></a>
+                                        <ul class="submenu">
+                                            <li><a href="{{'blog'|page}}">blog</a></li>
+                                            <li><a href="{{'single-blog'|page}}">single-blog</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="{{'contact'|page}}">Contact</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 d-none d-lg-block">
+                        <div class="Appointment">
+                            <div class="phone_num d-none d-xl-block">
+                                <a href="#">Log in</a>
+                            </div>
+                            <div class="d-none d-lg-block">
+                                <a class="boxed-btn3" href="#">Post a Job</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="mobile_menu d-block d-lg-none"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>";s:4:"code";N;}}

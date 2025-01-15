@@ -1,0 +1,29 @@
+{{ form_open({'class': 'form-contact contact_form', 'method': 'POST', 'request': 'onSend'}) }}
+{{form_model(feedback, {'id':'userForm'})}}
+          {# <form class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate"> #}
+            <div class="row">
+              <div class="col-12">
+                <div class="form-group">
+                    {{ form_textarea('text', '', {'class':'form-control w-100', 'id':"message", 'placeholder':'Введите сообщение...', 'required':'true'}) }}
+                    {# <textarea class="form-control w-100" name="message" id="message" cols="30" rows="9" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Message'" placeholder = 'Enter Message' required></textarea> #}
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="form-group">
+                  {{ form_text('name', '', {'class':'form-control', 'id':"name", 'placeholder':'Ваше имя', 'required':'true'}) }}
+                  {# <input class="form-control" name="name" id="name" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" placeholder = 'Enter your name' required> #}
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="form-group">
+                  {{ form_email('email', '', {'class':'form-control', 'id':"email", 'placeholder':'Как с вами связаться', 'required':'true'}) }}
+                  {# <input class="form-control" name="email" id="email" type="email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" placeholder = 'Enter email address' required> #}
+                </div>
+              </div>
+            </div>
+            <div class="form-group mt-3">
+              {{ form_submit('отправить', {'class':"button button-contactForm btn_4 boxed-btn"}) }}
+              {# <button type="submit" class="button button-contactForm btn_4 boxed-btn">Send Message</button> #}
+            </div>
+          {# </form> #}
+          {{form_close()}}

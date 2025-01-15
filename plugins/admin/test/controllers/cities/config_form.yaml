@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: City
+
+# Model Form Field configuration
+form: $/admin/test/models/city/fields.yaml
+
+# Model Class name
+modelClass: Admin\Test\Models\City
+
+# Default redirect location
+defaultRedirect: admin/test/cities
+
+# Create page
+create:
+    title: Create City
+    redirect: admin/test/cities/update/:id
+    redirectClose: admin/test/cities
+
+# Update page
+update:
+    title: Edit City
+    redirect: admin/test/cities
+    redirectClose: admin/test/cities
+
+# Preview page
+preview:
+    title: Preview City

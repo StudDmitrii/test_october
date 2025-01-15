@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Contact
+
+# Model Form Field configuration
+form: $/admin/test/models/contact/fields.yaml
+
+# Model Class name
+modelClass: Admin\Test\Models\Contact
+
+# Default redirect location
+defaultRedirect: admin/test/contacts
+
+# Create page
+create:
+    title: Create Contact
+    redirect: admin/test/contacts/update/:id
+    redirectClose: admin/test/contacts
+
+# Update page
+update:
+    title: Edit Contact
+    redirect: admin/test/contacts
+    redirectClose: admin/test/contacts
+
+# Preview page
+preview:
+    title: Preview Contact

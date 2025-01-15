@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Feedback
+
+# Model Form Field configuration
+form: $/admin/test/models/feedback/fields.yaml
+
+# Model Class name
+modelClass: Admin\Test\Models\Feedback
+
+# Default redirect location
+defaultRedirect: admin/test/feedback
+
+# Create page
+create:
+    title: Create Feedback
+    redirect: admin/test/feedback/update/:id
+    redirectClose: admin/test/feedback
+
+# Update page
+update:
+    title: Edit Feedback
+    redirect: admin/test/feedback
+    redirectClose: admin/test/feedback
+
+# Preview page
+preview:
+    title: Preview Feedback
