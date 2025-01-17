@@ -2,9 +2,9 @@
 * tyumen.october.ru
 * moscow.october.ru
 
-#админ
-login: admin
-password: admin
+# админ
+* login: admin
+* password: admin
 
 # информация
 * контактные данные, которые меняются в зависимости от домена (например: tyumen.ocotber.local), находятся на вкладке "/contact"
